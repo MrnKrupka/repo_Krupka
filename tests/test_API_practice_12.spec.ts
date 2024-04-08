@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 let idNewUser: string = '';
-const baseUrl = 'https://reqres.in';
+const baseUrl = 'https://reqres.in2';
 
 test('Should return list of the users', async ({ request }) => {
     const issues = await request.get(`${baseUrl}/api/users?page=2`);
